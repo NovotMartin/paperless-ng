@@ -241,7 +241,7 @@ jobs:
   # build and push image to docker hub.
   build-docker-image:
     runs-on: ubuntu-latest
-    needs: [frontend, tests, whitespace, codestyle]
+    needs: [frontend, whitespace, codestyle]
     steps:
       -
         name: Prepare
