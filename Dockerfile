@@ -101,4 +101,4 @@ ENTRYPOINT ["/sbin/docker-entrypoint.sh"]
 EXPOSE 8000
 CMD ["/usr/local/bin/supervisord", "-c", "/etc/supervisord.conf"]
 
-LABEL maintainer="Jonas Winkler <dev@jpwinkler.de>"
+LABEL maintainer="Martin Novotný <novot.martin@gmail.com>"
