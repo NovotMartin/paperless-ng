@@ -238,7 +238,6 @@ jobs:
           name: release
           path: dist/paperless-ng.tar.xz
 
-
   # build and push image to docker hub.
   build-docker-image:
     if: github.event_name == 'push' && github.ref == 'refs/heads/dev' || startsWith(github.ref, 'refs/tags/ng-'))
