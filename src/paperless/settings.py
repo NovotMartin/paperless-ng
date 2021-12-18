@@ -315,6 +315,7 @@ LANGUAGES = [
     ("pl-pl", _("Polish")),
     ("sv-se", _("Swedish")),
     ("lb-lu", _("Luxembourgish")),
+    ("cs-cz", _("Czech")),
 ]
 
 LOCALE_PATHS = [
